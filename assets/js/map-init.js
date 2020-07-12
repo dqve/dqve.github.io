@@ -2,10 +2,10 @@
     google.maps.event.addDomListener(window, 'load', init);
     function init() {
         var mapOptions = {
-          zoom: 17,
+          zoom: 13,
           scrollwheel: false, 
           navigationControl: false,
-          center: new google.maps.LatLng(24.906308,91.870413),
+          center: new google.maps.LatLng(9.075013, 7.409058),
           styles: [{"featureType":"water","elementType":"geometry","stylers":[{"color":"#e9e9e9"},{"lightness":17}]},
           {"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":20}]},
           {"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffffff"},{"lightness":17}]},
@@ -23,9 +23,9 @@
       var mapElement = document.getElementById('mh-map');
       var map = new google.maps.Map(mapElement, mapOptions);
       var marker = new google.maps.Marker({
-          position: new google.maps.LatLng(24.906308,91.870413),
+          position: new google.maps.LatLng(9.075013, 7.409058),
           map: map,
-          title: '24 Golden Tower (2nd floor), Amborkhana, Sylhet.!'
+          title: 'Abuja Nigeria'
       });
     }
-
+    
