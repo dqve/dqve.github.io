@@ -43,7 +43,7 @@
         <link rel="alternate stylesheet" href="assets/css/colors/slate.css" title="slate">
         <link rel="alternate stylesheet" href="assets/css/colors/yellow.css" title="yellow">
     </head>
-    <body class="dark-vertion black-bg">
+    <body class="dark-vertion black-bg" title="David Ayo">
         <!-- Start Loader -->
         <div class="section-loader">
             <div class="loader">
@@ -941,78 +941,50 @@
     <script src="assets/plugins/js/isotope.pkgd.js"></script>
     <script src="assets/plugins/js/packery-mode.pkgd.js"></script>
     <!-- Map api -->
-    <script src="http://maps.googleapis.com/maps/api/js?v=3.exp&amp;key=AIzaSyCRP2E3BhaVKYs7BvNytBNumU0MBmjhhxc"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;key=AIzaSyCRP2E3BhaVKYs7BvNytBNumU0MBmjhhxc"></script>
     <!-- Custom Scripts-->
     <script src="assets/js/map-init.js"></script>
     <script src="assets/js/custom-scripts.js"></script>
     
-
-    <!-- ****************
-      After neccessary customization/modification, Please minify 
-      JavaScript/jQuery according to http://browserdiet.com/en/ for better performance
-    **************** -->
-    <!-- STYLE SWITCH STYLESHEET ONLY FOR DEMO -->
+    <!-- STYLE SWITCH STYLESHEET ONLY FOR SWITCHER -->
     <link rel="stylesheet" href="demo/demo.css">
     <script type="text/javascript" src="demo/styleswitcher.js"></script>
     <script type="text/javascript" src="demo/demo.js"></script>
         <div class="demo-style-switch" id="switch-style">
     <a id="toggle-switcher" class="switch-button"><i class="fa fa-snowflake-o fa-spin"></i></a>
     <div class="switched-options">
-    <ul>
-        <li class="mh-demo-styles"> 
-            <h4>Style One </h4>
-            <ul>
-                <li>
-                    <a href="index.html"> <img src="assets/images/h1w.png" alt="" class="img-fluid"></a>
+    
+            <div class="config-title" style="border-top: 0px;">
+                Change Theme
+            </div>
+            <ul class="styles">
+                <li style="padding: 10px 20px;">
+                    <a href="#" onclick="setActiveTheme('black'); return false;" title="Black theme"><div class="black"></div></a>
                 </li>
-                <li>
-                    <a href="home-one-w.html"> <img src="assets/images/h1.png" alt="" class="img-fluid"></a>
+                <li  style="padding: 10px 20px;">
+                    <a href="#" onclick="setActiveTheme('white'); return false;" title="White theme">
+                        <div class="white"></div></a>
                 </li>
-            </ul>
-        </li>
-        <li class="mh-demo-styles"> 
-            <h4>Style Two </h4>
-            <ul>
-                <li>
-                    <a href="home-two.html"> <img src="assets/images/h2w.png" alt="" class="img-fluid"></a>
-                </li>
-                <li>
-                    <a href="home-two-w.html"> <img src="assets/images/h2.png" alt="" class="img-fluid"></a>
-                </li>
-            </ul>
-        </li>                 
-        
-        <li class="mh-demo-styles"> 
-            <h4>RTl</h4>
-            <ul>
-                <li>
-                    <a href="home-rtl.html"> <img src="assets/images/h3w.png" alt="" class="img-fluid"></a>
-                </li>
-                <li>
-                    <a href="home-rtl-w.html"> <img src="assets/images/h3.png" alt="" class="img-fluid"></a>
-                </li>
-            </ul>
-        </li>                
-    </ul>
+            </ul> 
     <div class="config-title">
-        Colors :
+        Change Accent
     </div>
     <ul class="styles">
-        <li><a href="#" onclick="setActiveStyleSheet('blue'); return false;" title="Blue">
+        <!--<li><a href="#" onclick="setActiveStyleSheet('blue'); return false;" title="Blue">
             <div class="blue"></div></a>
         </li>
         <li><a href="#" onclick="setActiveStyleSheet('purple'); return false;" title="Purple">
             <div class="purple"></div></a>
-        </li>
+        </li>-->
         <li><a href="#" onclick="setActiveStyleSheet('blue-munsell'); return false;" title="Blue Munsell">
             <div class="blue-munsell"></div></a>
         </li>
-        <li><a href="#" onclick="setActiveStyleSheet('orange'); return false;" title="Orange">
+       <!-- <li><a href="#" onclick="setActiveStyleSheet('orange'); return false;" title="Orange">
             <div class="orange"></div></a>
         </li>
         <li><a href="#" onclick="setActiveStyleSheet('slate'); return false;" title="Slate">
             <div class="slate"></div></a>
-        </li>
+        </li>-->
         <li><a href="#" onclick="setActiveStyleSheet('green'); return false;" title="Green">
             <div class="green"></div></a>
         </li>
