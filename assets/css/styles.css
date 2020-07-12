@@ -1325,6 +1325,10 @@ li .fa {
   animation-delay: -0.5s;
 }
 
+p .text-style{
+    color: aqua;
+  }
+
 .section-loader .loader {
   width: 200px !important;
   height: 200px !important;
