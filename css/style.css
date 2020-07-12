@@ -20,6 +20,10 @@
   box-shadow: 0 19px 24px 0 rgba(17, 37, 33, 0.1);
 }
 
+.section-separator .ido{
+  max-height: 350px;
+}
+
 .contact-button:hover, .contact-button:focus {
   background-color: #1cb18f;
   border-color: #1cb18f;
