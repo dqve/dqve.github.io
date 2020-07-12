@@ -70,6 +70,22 @@
   height: 35px;
   border-radius: 50%;
 }
+
+.switched-options ul.styles li .black {
+  width: 35px;
+  height: 35px;
+  border-color: #000;
+  border: 1px solid rgb(255, 255, 255);
+  background: #000000;
+}
+
+.switched-options ul.styles li .white {
+  width: 35px;
+  height: 35px;
+  border: 1px solid #000;
+  background: #ffffff;
+}
+
 .demo-style-switch ul.styles li .blue {
   background: #a97afd;
 }
