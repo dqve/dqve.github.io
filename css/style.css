@@ -420,9 +420,9 @@ header .overlay {
 }
 
 @media only screen and (max-width: 485px) {
-  header .overlay {
-    /*height: 370px;*/
-  }
+ /* header .overlay {
+    height: 370px;
+  }*/
 }
 
 header .heading-1 {
@@ -435,9 +435,9 @@ header a {
 }
 
 @media only screen and (max-width: 485px) {
-  header {
-    /*height: 370px;*/
-  }
+ /* header {
+    height: 370px;
+  }*/
 }
 
 
