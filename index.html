@@ -474,7 +474,7 @@
                     <div class="part col-sm-12">
                         <div class="portfolio-nav col-sm-12" id="filter-button">
                             <ul>
-                                <li data-filter=".all" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s"> <span>All Categories</span></li>
+                                <li id="all" data-filter=".all" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s"> <span>All Categories</span></li>
                                 <li data-filter=".web-dev" class="current wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s"><span>Web Dev</span></li>
                                 <li data-filter=".sp" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s"> <span>Side Project</span></li>
                                 <li data-filter=".mockups" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s"><span>Mockups</span></li>
@@ -541,12 +541,12 @@
                                 </div>
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 sp">
                                     <figure>
-                                        <img src="assets/images/portfolio/piano.png" alt="Piano player websites">
+                                        <img src="assets/images/portfolio/piano-player.png" alt="Piano player websites">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-desktop"></i>
                                             <h5 class="title">Piano Player</h5>
                                             <span class="sub-title">Game, Website</span>
-                                            <a href="assets/images/portfolio/piano.png" data-fancybox data-src="#pp"></a>
+                                            <a href="assets/images/portfolio/piano-player.png" data-fancybox data-src="#pp"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
@@ -574,12 +574,12 @@
                                 </div>
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 sp web-dev">
                                     <figure>
-                                        <img src="assets/images/portfolio/liveizy.png" alt="QMS">
+                                        <img src="assets/images/portfolio/liveizy.png" alt="Liveizy Dashboard">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-desktop"></i>
                                             <h5 class="title">Liveizy Dashboard</h5>
                                             <span class="sub-title">Website</span>
-                                            <a href="assets/images/portfolio/liveizy.png" data-fancybox data-src="#qms"></a>
+                                            <a href="assets/images/portfolio/liveizy.png" data-fancybox data-src="#ld"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
@@ -628,7 +628,7 @@
                                     </figure>
                                 </div>
                                 
-                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockups all sp">
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockups all">
                                     <figure>
                                         <img src="assets/images/portfolio/signet.png" alt="Signet Inc websites">
                                         <figcaption class="fig-caption">
@@ -639,7 +639,7 @@
                                         </figcaption>
                                     </figure>
                                 </div>
-                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockups all sp">
+                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockups all">
                                     <figure>
                                         <img src="assets/images/portfolio/sally.png" alt="Sally websites">
                                         <figcaption class="fig-caption">
@@ -661,7 +661,7 @@
                                         </figcaption>
                                     </figure>
                                 </div>
-                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockups all sp">
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockups all">
                                     <figure>
                                         <img src="assets/images/portfolio/adams.png" alt="The journey websites">
                                         <figcaption class="fig-caption">
@@ -683,7 +683,7 @@
                                         </figcaption>
                                     </figure>
                                 </div>
-                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockups all sp">
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockups all">
                                     <figure>
                                         <img src="assets/images/portfolio/blogative.png" alt="Blogative websites">
                                         <figcaption class="fig-caption">
@@ -1291,5 +1291,11 @@
     </ul>
     </div>
     </div>
+    <script>
+        let all = document.getElementById("all")
+        window.onload = () => {
+            all.click()
+        }
+    </script>
 </body>
 </html>
