@@ -1,0 +1,47 @@
+https://medium.com/@sumn2u/string-similarity-comparision-in-js-with-examples-4bae35f13968
+
+diffference viewer:
+https://github.com/praneshr/react-diff-viewer
+
+user login:
+https://medium.com/technoetics/create-basic-login-forms-using-create-react-app-module-in-reactjs-511b9790dede
+
+https://thinkster.io/tutorials/react-redux-forms
+
+https://jasonwatmore.com/post/2020/04/22/react-email-sign-up-with-verification-authentication-forgot-password
+
+https://github.com/cornflourblue/react-signup-verification-boilerplate
+
+https://www.npmjs.com/package/string-similarity
+
+https://github.com/aceakash/string-similarity#readme
+
+
+
+https://www.google.com/search?ei=KFk3X_PlBMrP1fAPpbCYgAs&q=percentage+similarity+between+two+sentences+reactjs&oq=percentage+similarity+between+two+sentences+reactjs&gs_lcp=CgZwc3ktYWIQAzoECAAQRzoGCAAQFhAeOgUIIRCgAToHCCEQChCgAToECCEQFVC-XVjYbWCwcGgAcAF4AIAB1AKIAYoRkgEFMi02LjKYAQCgAQGqAQdnd3Mtd2l6wAEB&sclient=psy-ab&ved=0ahUKEwjzma_hpJzrAhXKZxUIHSUYBrAQ4dUDCAw&uact=5
+
+
+file viewer:
+https://developer.mozilla.org/en-US/docs/Web/API/FileList
+
+design:
+https://www.figma.com/file/sH8iRl0eKlDfxvt4m1MSTf/react-compare?node-id=0%3A1
+
+
+-sanctuary san
+-react-hooks-shop rhs
+-react-courses rc
+-Piano player pp
+-Quick meal services qms
+-Liveizy Dashboard ld
+-React Meme Gen rmg
+-Elite set el
+-TTG ttg
+-
+
+
+API ID
+75a023c7-2ae2-47d1-908e-68b1d16513d9
+
+Token
+e8e1327a8212dda8ec92ca753e675da458a6748bf616e195b5477b9abdb09553
